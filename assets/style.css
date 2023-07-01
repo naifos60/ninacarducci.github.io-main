@@ -248,6 +248,24 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+footer{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 25px;
+	color: #fff;
+	background-color: black;
+}
+.local-references{
+	display: flex;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.local-references h5{
+	margin-bottom: 0.3rem;
+}
 
 @media all and (max-width: 1180px) {
 	.picture {
@@ -356,6 +374,12 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+	}
+	footer{
+		flex-direction: column;
+	}
+	.local-references{
+		width: 100%;
 	}
 }
 
